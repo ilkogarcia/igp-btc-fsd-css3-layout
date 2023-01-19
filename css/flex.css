@@ -1,0 +1,64 @@
+body {
+    background-color:#DDDDDD;
+    margin: 0;
+}
+
+/* Contenedor principal de toda la página */
+.container {
+    background-color:#AAAAAA;
+    height: 100vh;
+}
+
+.def {
+    min-height: 20vh;
+}
+
+/* Barra de navegación superior */
+#navBar {
+    border: 2px solid red;
+}
+
+/* Contenido principal en el medio de la página */
+#mainContent {
+    border: 2px solid red;
+    min-height: 60vh;
+    display: flex;
+}
+
+/* Barra lateral izquierda dentro de la sección principal */
+#leftContent {
+    border: 1px dashed blue;
+    width: 20vw;
+}
+
+/* Área de contenido  a la derecha de la sección principal */
+#rightContent {
+    border: 1px dashed blue;
+    width: 80vw;
+}
+
+/* Estilos aplicados al contenedor del pie de pagina */
+#footer {
+    border: 2px solid red;
+    display: flex;
+}
+
+.ft-elm-width {
+    width: 25vw;
+}
+
+#footer-1 {
+    border: 1px solid green;
+}
+
+#footer-2 {
+    border: 1px solid green;
+}
+
+#footer-3 {
+    border: 1px solid green;
+}
+
+#footer-4 {
+    border: 1px solid green;
+}
