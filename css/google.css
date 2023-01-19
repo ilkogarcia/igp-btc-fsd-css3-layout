@@ -1,0 +1,125 @@
+body {
+    background-color:white;
+    margin: 0;
+    font-family: arial,sans-serif;
+    font-size: 18px;
+}
+
+/* Contenedor principal de la página */
+.container {
+    background-color: white;
+    height: 100vh;
+}
+
+/* Barra de navegación superior */
+#navBar {
+    /* border: 2px solid red; */
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.menuHrz {
+    float: left;
+    margin-right: 30px;
+    text-align: left;
+    font-size: medium;
+}
+
+.menuLink {
+    color: #202124;
+    text-decoration: none;
+}
+
+.menuLink:hover {
+    text-decoration: underline;
+}
+
+.textLink {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.textLink:hover {
+    text-decoration: underline;
+}
+
+.menuHrz2 {
+    float: right;
+    margin-left: 30px;
+    text-align: right;
+    font-size: medium;
+    color: #202124;
+    text-decoration: none;
+}
+
+.menuHrz2:hover {
+    text-decoration: underline;
+}
+
+#navBarLeft {
+    /* border: 2px solid blue; */
+    width: 50vw;
+    height: inherit;
+    display: flex;
+    padding-left: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#navBarRight {
+    /* border: 2px solid blue; */
+    width: 50vw;
+    height: inherit;
+    display: flex;
+    padding-right: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Contenido principal en el medio de la página */
+#mainContent {
+    /* border: 2px solid red; */
+    height: 70vh;
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+}
+
+#googleLogo {
+    /* border: 2px solid red; */
+    height: 120px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#inputLine {
+    /* border: 2px solid red; */
+    height: 88px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#buttons {
+    /* border: 2px solid red; */
+    height: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#otherLang {
+    /* border: 2px solid red; */
+    height: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4d5156;
+    display: inline-block;
+    line-height: 28px;
+    font-size: medium;
+}
+
+/* Estilos aplicados al contenedor del pie de pagina */
+#footer {
+    border: 2px solid red;
+    height: 20vh;
+}
