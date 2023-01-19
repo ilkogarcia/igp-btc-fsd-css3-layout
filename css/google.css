@@ -19,44 +19,6 @@ body {
     align-items: center;
 }
 
-.menuHrz {
-    float: left;
-    margin-right: 30px;
-    text-align: left;
-    font-size: medium;
-}
-
-.menuLink {
-    color: #202124;
-    text-decoration: none;
-}
-
-.menuLink:hover {
-    text-decoration: underline;
-}
-
-.textLink {
-    color: #1a0dab;
-    text-decoration: none;
-}
-
-.textLink:hover {
-    text-decoration: underline;
-}
-
-.menuHrz2 {
-    float: right;
-    margin-left: 30px;
-    text-align: right;
-    font-size: medium;
-    color: #202124;
-    text-decoration: none;
-}
-
-.menuHrz2:hover {
-    text-decoration: underline;
-}
-
 #navBarLeft {
     /* border: 2px solid blue; */
     width: 50vw;
@@ -75,6 +37,61 @@ body {
     padding-right: 20px;
     justify-content: flex-end;
     align-items: center;
+}
+
+.menuHrz {
+    float: left;
+    margin-right: 30px;
+    text-align: left;
+    font-size: medium;
+}
+
+.menuLink {
+    color: #202124;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.menuLink:hover {
+    text-decoration: underline;
+}
+
+.textLink {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.textLink:hover {
+    text-decoration: underline;
+}
+
+.copyLink {
+    color: #70757a;
+    text-decoration: none;
+}
+
+#appBttn {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/boton1-normal.png);
+    background-position: center;
+}
+
+#appBttn:hover {
+    background-image: url(../img/boton1-hover.png);
+    background-position: center;
+}
+
+#userImg {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/user-img-normal.png);
+    background-position: center;
+}
+
+#userImg:hover {
+    background-image: url(../img/user-img-hover.png);
+    background-position: center;
 }
 
 /* Contenido principal en el medio de la página */
@@ -107,6 +124,26 @@ body {
     text-align: center;
 }
 
+.roundedConers {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.roundedConers:hover {
+    border: 1px solid gray;
+}
+
 #otherLang {
     /* border: 2px solid red; */
     height: 40px;
@@ -120,6 +157,43 @@ body {
 
 /* Estilos aplicados al contenedor del pie de pagina */
 #footer {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 20vh;
+    background-color: #f2f2f2;
+    color: #70757a;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    flex-flow: column;
+}
+
+#country {
+    width: 100vw;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 16px;
+    color: #70757a;
+    display: block;
+}
+
+#bottomMenu {
+    width: 100vw;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #70757a;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#btmMenu1 {
+    align-self: flex-start;
+}
+
+#btmCopy {
+    align-self: center;
+}
+
+#btmMenu2 {
+    align-self: flex-end;
 }
