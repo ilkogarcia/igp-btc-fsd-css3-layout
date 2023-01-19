@@ -43,6 +43,7 @@ body {
     display: flex;
 }
 
+/* Clase para establecer propiedades comúnes de los elementos en el footer */
 .ft-elm-width {
     width: 25vw;
 }
