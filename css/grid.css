@@ -3,6 +3,7 @@ body {
     background-color: black;
 }
 
+/* Clase contenedor principal */
 .wrapper {
     background-color: aqua;
     height: 100vh;
@@ -12,6 +13,7 @@ body {
     gap: 5px;
 }
 
+/* Clase estilos comunes de una caja */
 .box {
     background-color: blueviolet;
     color: white;
@@ -20,6 +22,7 @@ body {
     justify-content: center;
 }
 
+/*  */
 .box1 {
     grid-column: 1 / 5;
 }
