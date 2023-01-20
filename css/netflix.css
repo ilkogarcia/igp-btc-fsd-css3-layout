@@ -1,0 +1,117 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    cursor: default;
+}
+
+/* Main wrapper */
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr 1fr;
+    grid-template-rows: 1fr 10fr 1fr;
+    background-image: url(../img/jung_e.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Common styles applied to div */
+.box {
+    /* background-color: blueviolet; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Box for Netflix logo in header bar*/
+.box1 {
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: left;
+}
+
+/* Box for left menu in the header bar*/
+.box2 {
+    grid-column: 3 / 9;
+    display: flex;
+    justify-content: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Menu horizontal list style */
+.hrz-menu {
+    list-style-type: none;
+}
+
+/* Menu horizontal element style */
+.hrz-menu-item {
+    float: left;
+    margin-right: 18px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+/* Box for right menu in the header bar */
+.box3 {
+    grid-column: 9 / 12;
+}
+
+.secondary-nav-menu {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-element {
+    display: flex;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+.search-button {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/search.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.notify-button {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/notification.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.user-profile {
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/profile_icon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Film catalog browser */
+.box4 {
+    grid-column: 2 / 12;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content:left;
+    flex-wrap: wrap;
+}
+
+/* Footer bar */
+.box5 {
+    grid-column: 2 / 12;
+}
